@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wind Turbine</title>
+  </head>
+
+  <script src="https://tonybox.net/plugins/stl/webgl.min.js"></script>
+  <script src="https://tonybox.net/plugins/stl/three.min.js"></script>
+  <script src="https://tonybox.net/plugins/stl/stlloader.min.js"></script>
+  <script src="https://tonybox.net/plugins/stl/orbitcontrols.min.js"></script>
+  <script src="https://tonybox.net/plugins/stl/stlviewer.js"></script>
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <body>
+    <header>
+      <h1>Portable Wind Turbine</h1>
+
+      <p>3D Model of the Portable Wind Turbine</p>
+
+      <a href="#learn-more">Learn more</a>
+    </header>
+
+    <div id="model" style="width: 800px; height: 800px"></div>
+
+    <main>
+      <div class="container">
+        <section>
+          <h2 id="learn-more">INTRODUCTION</h2>
+          <p>
+            As the human race tends towards innovation, the use of energy
+            sources has reached the maximum limit. Human race has undeniably
+            relied on non-renewable sources of energy for a very long period of
+            time that it will not take more than a few centuries for natural
+            sources to fade away. Although there are some countries in the world
+            which are trying to completely rely on alternative sources of energy
+            it doesn’t seem to stop the use of limited natural resources. So it
+            is where portable sustainable energy systems comes in. If there are
+            portable energy generators which high efficiency, produced and used
+            in large scale in every home, it will be a new revolution towards
+            saving the resources of next generation. In this research we are
+            displaying the design making of such energy sources that can
+            revolutionize the future.
+          </p>
+          <picture>
+            <img
+              src="./assets/intro.png"
+              width="500"
+              alt="use of non-renewable sources of energy till 2000"
+              style="width: 100%" />
+            <label
+              >Increasing Use of non-renewable sources of energy till 2000.
+              &mdash; Source: Research Gate
+            </label>
+          </picture>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2>PORTABLE SUSTAINABLE ENERGY SYSTEMS</h2>
+
+          <p>
+            Portable sustainable energy systems are compact, mobile setups
+            designed to generate electricity using renewable energy sources such
+            as solar, wind, or kinetic energy. These systems typically include
+            solar panels, small wind turbines, or kinetic generators, along with
+            storage batteries and necessary electrical components, all
+            integrated into a portable unit.
+          </p>
+
+          <p>
+            Portable sustainable energy systems offer numerous advantages over
+            traditional large-scale alternatives. Firstly, their mobility
+            enables energy provision in remote or off-grid areas where
+            conventional infrastructure is lacking, facilitating disaster
+            response, outdoor events, and temporary installations. Secondly,
+            their scalability allows for flexible adaptation to varying energy
+            demands, catering to both individual needs and larger commercial
+            applications. Thirdly, the rapid deployment capabilities of portable
+            systems ensure quick setup and operation, crucial in emergency
+            situations or urgent energy requirements. Lastly, their reduced
+            environmental impact, stemming from smaller footprints and localized
+            operation, contributes to sustainability goals while promoting
+            energy access and resilience in diverse contexts. Last but not the
+            least, these systems offer adaptability to various energy demands,
+            as they can be scaled up or down efficiently, catering to both
+            individual needs and larger commercial applications.
+          </p>
+        </section>
+        <hr />
+        <section>
+          <h2>PORTABLE WIND TURBINES</h2>
+
+          <h3>1) Dual Rotor Turbine</h3>
+
+          <p>
+            ANALYSIS: Dual rotor turbines offer several advantages over regular
+            turbines, primarily due to their innovative design. With two sets of
+            blades rotating in opposite directions, dual rotor turbines can
+            capture more wind energy, leading to increased energy production.
+            This enhanced energy capture capability allows dual rotor turbines
+            to operate more efficiently than regular turbines, particularly in
+            areas with fluctuating wind patterns or low wind speeds.
+            Additionally, the counter-rotating blades help reduce turbulence,
+            improving airflow and further boosting efficiency. As a result, dual
+            rotor turbines often start generating power at lower wind speeds
+            compared to their single rotor counterparts, extending their
+            operational range and maximizing energy output. Moreover, the
+            balanced forces exerted by the dual rotors can enhance reliability
+            and durability, leading to reduced maintenance costs and longer
+            lifespan.
+          </p>
+
+          <p>
+            While the exact efficiency improvement varies depending on factors
+            such as wind conditions and turbine specifications, studies have
+            shown that dual rotor turbines can be 5% more efficient than regular
+            turbines, extracting more energy from the same wind resource
+            compared to regular turbines.
+          </p>
+
+          <h3>2) F1 Liam Wind Turbine</h3>
+
+          <p>
+            <strong>ANALYSIS</strong>: The Liam F1, a revolutionary domestic-use
+            wind turbine crafted by Archimedes, a pioneering research and
+            development firm from the Netherlands, heralds a new era of clean
+            energy for residential homes. With its virtually soundless operation
+            and impressive 80% yield, far surpassing the conventional maximum of
+            25%, the Liam F1 stands as an enticing choice for homeowners seeking
+            a tranquil environment without compromising on energy efficiency.
+            Engineered with a distinctive screw-like design by Richard
+            Rujitenbeek, it minimizes resistance and maximizes efficiency,
+            capable of generating 1,500 kWh of energy at a wind speed of 5 m/s,
+            equivalent to half the power consumption of an average European
+            household. Surpassing alternatives like solar panels, hydroelectric
+            systems, and biomass heating, the Liam F1 operates at approximately
+            80% of the Betz Limit, boasting an overall efficiency of 47.4%. With
+            over 7,000 turbines already sold across 14 countries, its market
+            impact is undeniable, potentially heralding a shift towards smaller
+            wind turbines in various applications, including water vehicles.
+            Grounded in the philosophies of Archimedes, the company strives to
+            provide clean energy solutions while integrating with other energy
+            sources as necessary. In essence, the Liam F1 signifies a monumental
+            leap forward in urban wind energy, offering households a trifecta of
+            efficiency, silence, and sustainability.
+          </p>
+
+          <p>
+            This is the YouTube link:
+            <a
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=Kx7WaMDcdaQ"
+              >https://www.youtube.com/watch?v=Kx7WaMDcdaQ</a
+            >
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Kx7WaMDcdaQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <h3>3) Wind Driven exhausts as turbines</h3>
+
+          <p>
+            With the growth in the number of manufacturing industries and the
+            excess hot air flow from homes, there is a high prospect for new
+            designs of exhaust systems that can generate electricity. The major
+            advantage of using wind-driven exhausts as turbines is their
+            scalability in a larger scope and their ability to operate 24 hours
+            a day, unlike solar panels that are functional only for a few hours.
+            By harnessing the pressure difference between the interior and
+            exterior of infrastructures, wind-driven exhausts as turbines not
+            only tap into existing air flow but also utilize wind energy with
+            improved efficiency through enhanced design. This dual functionality
+            makes them highly versatile and effective in harnessing renewable
+            energy from various sources, contributing to a more sustainable
+            energy landscape. As industries and homes increasingly seek to
+            reduce their carbon footprint and energy costs, wind-driven exhaust
+            systems present a promising solution that maximizes energy
+            generation potential while minimizing environmental impact.
+          </p>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2>PORTABLE WIND TURBINES IN NEW JERSEY</h2>
+
+          <p>
+            The advantages of portable wind turbines are numerous, especially
+            when considering their potential in a region like New Jersey.
+            Firstly, portable wind turbines offer a decentralized energy
+            solution, meaning they can be deployed close to where electricity is
+            needed, reducing transmission losses and the need for extensive grid
+            infrastructure. This enhances energy reliability and resilience,
+            particularly in remote or off-grid areas. Additionally, the average
+            power output of 900W per turbine, based on New Jersey's average wind
+            speed, translates to a significant daily energy production of 21.6
+            kWh per turbine. With nearly 3,785,346 houses in New Jersey, the
+            cumulative energy generation from portable wind turbines can be
+            substantial, totaling approximately 2GWh of electricity per day.
+            This sizable energy contribution can significantly supplement the
+            existing grid supply, potentially reducing dependence on fossil
+            fuels and lowering carbon emissions. Moreover, the renewable nature
+            of wind energy ensures a consistent and sustainable energy source,
+            offering long-term reliability without depleting finite resources.
+            Therefore, the continued utilization and advancement of portable
+            wind turbines hold immense promise for meeting energy needs while
+            promoting environmental sustainability and energy independence.
+          </p>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2>FEASIBILITY</h2>
+
+          <p>
+            Scaling portable wind turbines to a large number of houses in New
+            Jersey is indeed feasible and holds great potential for enhancing
+            the region's energy landscape. Several strategies can be employed to
+            effectively deploy and scale up the use of these turbines across
+            households:
+          </p>
+
+          <ol>
+            <li>
+              Standardization and Mass Production: Standardizing the design and
+              components of portable wind turbines can streamline manufacturing
+              processes and reduce costs through economies of scale. Mass
+              production can further drive down the unit cost of turbines,
+              making them more affordable for homeowners.
+            </li>
+            <li>
+              Incentive Programs: Government incentives and subsidies can
+              encourage homeowners to invest in portable wind turbines. Tax
+              credits, rebates, and feed-in tariffs for renewable energy
+              generation can make these turbines more financially appealing and
+              accelerate their adoption.
+            </li>
+            <li>
+              Education and Outreach: Educating homeowners about the benefits of
+              portable wind turbines and providing technical assistance can
+              increase awareness and acceptance. Workshops, demonstration
+              projects, and outreach campaigns can help dispel misconceptions
+              and build confidence in the reliability and effectiveness of these
+              turbines.
+            </li>
+          </ol>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2>Conclusion</h2>
+          <p>
+            In conclusion, the exploration and advancement of portable
+            sustainable energy systems mark a significant step towards
+            addressing the challenges posed by the diminishing availability of
+            non-renewable energy sources. Situated at the forefront of the
+            energy transition, embracing forward-looking solutions becomes
+            imperative. Through the careful design and deployment of portable
+            energy generators characterized by high efficiency and scalability,
+            we hold the potential to revolutionize our approach to energy
+            procurement and utilization.
+          </p>
+
+          <p>
+            The numerous benefits offered by these systems include their
+            mobility, enabling rapid deployment, and their ability to reduce
+            environmental impact while enhancing energy accessibility. By
+            empowering individuals and communities to generate renewable energy
+            on-site, we can diminish reliance on finite resources and bolster
+            energy resilience, thereby paving the way for sustainability.
+          </p>
+
+          <p>
+            Moreover, the strategic integration of innovative technologies like
+            dual rotor turbines and wind-driven exhaust systems serves to
+            enhance the effectiveness and adaptability of portable sustainable
+            energy systems. Harnessing the potential of wind and kinetic energy
+            opens up new avenues for energy production that are both versatile
+            and environmentally conscious.
+          </p>
+
+          <p>
+            As we navigate the complexities of transitioning to sustainable
+            energy, collaborative efforts and innovative initiatives emerge as
+            crucial drivers of progress. Governmental support through
+            incentivization programs and regulatory frameworks, alongside
+            comprehensive educational outreach initiatives aimed at raising
+            awareness and building capacity, play pivotal roles in accelerating
+            the adoption of portable sustainable energy systems. In essence, the
+            journey toward a renewable energy paradigm is predicated upon a
+            steadfast commitment to harnessing the potential of innovation and
+            technology. Through concerted collective action and unwavering
+            dedication to sustainability principles, we stand poised to usher in
+            an era of energy abundance where the exigencies of the present are
+            met without imperiling the resources upon which future generations
+            depend.
+          </p>
+
+          <picture>
+            <img
+              src="./assets/conclusion.png"
+              width="500"
+              alt="Annual and cumulative growth in US wind power capacity"
+              style="width: 100%" />
+            <label
+              >Annual and cumulative growth in US wind power capacity. &mdash;
+              Source: U.S. Department of Energy</label
+            >
+          </picture>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>MakeNJIT 2024 project by Anish, Dibas, and Saugat!</p>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        Read Dev Post
+      </a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

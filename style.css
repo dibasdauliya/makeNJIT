@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+img {
+  max-width: 600px;
+  display: block;
+  margin: 12px 0;
+}
+
+.container > *:not(:first-child) {
+  margin-top: 50px;
+}
+
+/* p:not(header > p), */
+main p,
+li {
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+#model {
+  margin: 10px auto;
+}
+
+footer {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}

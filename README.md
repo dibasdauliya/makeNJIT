@@ -1,1 +1,1 @@
-# makeNJIT
+# MakeNJIT Project - Portable Wind Turbine
