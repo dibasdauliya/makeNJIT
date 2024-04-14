@@ -22,6 +22,11 @@ img {
   margin-top: 50px;
 }
 
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
 /* p:not(header > p), */
 main p,
 li {
