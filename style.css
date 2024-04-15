@@ -24,6 +24,9 @@ img {
 
 iframe {
   display: block;
+}
+
+body > iframe:first-of-type {
   margin: 20px auto;
 }
 
